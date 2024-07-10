@@ -1,0 +1,48 @@
+body{
+    background-color:black;
+  }
+  
+  .container{
+    height: 400px;
+    width:700px;
+    margin:120px auto;
+    background-color:white;
+    overflow:hidden;
+    position: relative;
+  }
+  
+  .sol{
+    width:100px;
+    height:100px;
+    background-color:red;
+    border-radius:50%;
+    bottom:120px;
+    right:170px;
+    position: absolute;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: mover;
+    animation-delay:.1s;
+  }
+  
+  @keyframes mover {
+    0%{ 
+    }
+   
+    50%{ bottom:450px;
+        background-color:orange;
+        
+        
+    }
+    
+  }
+  
+  
+  
+  .nube{
+    
+  }
+  
+  .montanha{
+    
+  }
