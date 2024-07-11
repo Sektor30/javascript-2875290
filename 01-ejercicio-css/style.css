@@ -19,30 +19,130 @@ body{
     bottom:120px;
     right:170px;
     position: absolute;
-    animation-duration: 4s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
     animation-name: mover;
-    animation-delay:.1s;
   }
   
   @keyframes mover {
-    0%{ 
+    0% {
+      opacity: 100%;
+       
     }
+
    
     50%{ bottom:450px;
-        background-color:orange;
-        
-        
+        background-color:orange;  
+    }
+
+    75%{
+      opacity: 100%;
     }
     
   }
   
-  
-  
+
   .nube{
-    
+    position: absolute; 
   }
+
+  .uno{
+    position: absolute;
+    width: 40%;
+    top:60px ;
+    left: -100px;
+    animation-name: moverNubeUno;
+    animation-duration: 70s;
+    animation-iteration-count: infinite;    
+  }
+
+  
+
+  .dos{
+    position: absolute;
+    width: 20%;
+    top:200px ;
+    left: 100px;
+    animation-name: moverNubeUno;
+    animation-duration: 70s;
+    animation-iteration-count: infinite; 
+    z-index: 3;
+    
+
+
+  }
+
+  .tres{
+    
+    top: 150px;
+    left: -100px;
+    width: 150px;
+    animation-name: moverNubeUno;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    z-index: 1;
+  }
+
+  @keyframes moverNubeUno{
+    0%{
+ 
+    }
+    
+    50%{
+     left: 500px;
+    }
+   }
+
+
+
+
   
   .montanha{
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: moveMountain;
+    
+    
     
   }
+  
+  
+  .mount-one{width:200px;
+         height:200px;
+         position:absolute;
+          right:400px;top:300px;
+         transform: rotate(40deg);
+         background-color: #629f7b;
+             background-image: linear-gradient(66deg, #629f7b 18%, #ceca00 71%);
+            border-radius:30px;
+          }
+
+
+          .mount-two{
+            width:180px;
+           height:300px;
+           position:absolute;
+           right:320px;top:200px;
+            transform: rotate(40deg);
+           background-color: #3c7a4d;
+            background-image: linear-gradient(45deg, #3c7a4d 63%, #ceca00 100%);
+            border-radius:30px;
+            
+          }
+
+
+        .mount-three {
+          width:600px;
+           height:400px;
+           position:absolute;
+          right:-150px;top:350px;
+           transform: rotate(40deg);
+            background-color: #3c7a4d;
+            background-image: linear-gradient(0deg, #3c7a4d 88%, #ceca00 100%);
+            border-radius:30px;
+            z-index: 2;
+            
+          
+        }
+
+
