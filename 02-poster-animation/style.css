@@ -1,0 +1,12 @@
+body{
+    background-color:black;
+  }
+  
+  .container{
+    height: 400px;
+    width:700px;
+    margin:120px auto;
+    background-color:white;
+    overflow:hidden;
+    position: relative;
+  }
