@@ -6,7 +6,7 @@ body{
     height: 400px;
     width:700px;
     margin:120px auto;
-    background-color:white;
+    background-color:rgb(35, 126, 255);
     overflow:hidden;
     position: relative;
   }
@@ -19,23 +19,23 @@ body{
     bottom:120px;
     right:170px;
     position: absolute;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-name: mover;
+    animation:mover 20s infinite alternate-reverse;
   }
   
   @keyframes mover {
     0% {
       opacity: 100%;
        
-    }
-
-   
-    50%{ bottom:450px;
+    }   
+    50%{ bottom:400px;
         background-color:orange;  
     }
 
     75%{
+      opacity: 100%;
+    }
+
+    100%{
       opacity: 100%;
     }
     
@@ -51,9 +51,7 @@ body{
     width: 40%;
     top:60px ;
     left: -100px;
-    animation-name: moverNubeUno;
-    animation-duration: 70s;
-    animation-iteration-count: infinite;    
+    animation: moverNubeUno infinite 20s alternate;   
   }
 
   
@@ -62,10 +60,8 @@ body{
     position: absolute;
     width: 20%;
     top:200px ;
-    left: 100px;
-    animation-name: moverNubeUno;
-    animation-duration: 70s;
-    animation-iteration-count: infinite; 
+    left: 10px;
+    animation:moverNubeUno 30s infinite alternate-reverse ;
     z-index: 3;
     
 
@@ -77,9 +73,7 @@ body{
     top: 150px;
     left: -100px;
     width: 150px;
-    animation-name: moverNubeUno;
-    animation-duration: 30s;
-    animation-iteration-count: infinite;
+    animation: moverNubeUno 20s infinite alternate-reverse ;
     z-index: 1;
   }
 
@@ -87,8 +81,8 @@ body{
     0%{
  
     }
-    
-    50%{
+
+    100%{
      left: 500px;
     }
    }

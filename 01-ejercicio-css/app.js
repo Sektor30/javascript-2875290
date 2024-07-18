@@ -1,9 +1,8 @@
 const contenedor = document.querySelector('.container');
-const montaña = document.querySelector('.montaña');
-const uno = document.querySelector('.nubeuno');
-const dos = document.querySelector('.nubedos');
-const tres = document.querySelector('.nubetres');
-const cuatro = document.querySelector('.nubecuatro');
+const montaña = document.querySelector('.montanha');
+const uno = document.querySelector('.uno');
+const dos = document.querySelector('.dos');
+const tres = document.querySelector('.tres');
 const solguia = document.querySelector('.guia');
 const sol = document.querySelector('.sol');
 let e = 0
@@ -11,17 +10,17 @@ let e = 0
 
 function noche() {
     if(e == 0){
-     contenedor.style.backgroundColor = 'blue';
+     contenedor.style.backgroundColor = 'black';
      e = 1;
     }
     else{
-        contenedor.style.backgroundColor = 'wheat';
+        contenedor.style.backgroundColor = 'white';
         e = 0;
     }
 }
 
 
-function movernubes(){
+ function movernubes(){
     uno.style.animationIterationCount = 'infinite';
     uno.style.animationDuration = '20s';
     uno.style.animationName = 'nubeuno';
@@ -46,12 +45,12 @@ function moversol(){
 
     solguia.style.animationIterationCount = 'infinite';
     solguia.style.animationDuration = '9s';
-    solguia.style.animationName = 'solAnumation';
+    solguia.style.animationName = 'solAnimation';
 
     contenedor.style.backgroundColor = 'red';
     
     console.log('ejecutando');
-}
+} 
 
 contenedor.addEventListener('click', noche);
 
