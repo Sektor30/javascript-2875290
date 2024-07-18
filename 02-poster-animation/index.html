@@ -11,16 +11,51 @@
 .una{
     position: absolute;
     z-index: 1;
-    right:0 ;
-    transform: scaleX(-1);
-    
+    right:-100px ;
 }
+
+
+
+
+
 
 .dos{   position: absolute;
     z-index: 1;
-   left: 0;
+   left: -280px;
    top: 40px;
+   animation: movernave 8s linear ,movernavever 5s alternate-reverse , 
+   escala 10s infinite   ;
+   border: 2px solid green;
 
+}
+
+@keyframes escala{
+    0%{transform: scale(0,0);
+
+
+    }
+    100%{
+        transform: scale(3,3);
+
+    }
+}
+
+@keyframes movernave{
+    0%{
+        left: -100px;
+    }
+    100%{
+        left: 1300px;
+    }
+}
+
+@keyframes movernavever{
+    0%{ top: 200px;
+
+    }
+    100%{
+        top: 0px;
+    }
 }
 
 
@@ -29,7 +64,6 @@
     z-index: 1;
    left: -450px;
    top: 250px;
-   border: 2px solid red;
    transform: scaleX(-1);
 
 }
@@ -43,7 +77,65 @@
     right: -150px;
 }
 
+.shoot>img{
+    position: absolute;
+    z-index: 1;
+    
 
+}
+
+.one>img{
+    position: absolute;
+    right: 150px ;
+    bottom: 150px;
+    z-index: 1;
+    border: 4px solid red;
+}
+
+.particulas{
+    position: absolute;
+    z-index: 1;
+    left: -540px;
+    top: -220px;
+    transform: scale(50%,50%);
+    animation: moverHorizontal 30s ease-out alternate-reverse,
+     opacidad 8s alternate-reverse ;
+}
+
+@keyframes moverHorizontal{
+    from{
+        left: -540px;
+    }
+
+    to{
+        left:-950px;
+    }
+}
+
+@keyframes moverHorizontaldos{
+    from{
+        
+        left:-900px;
+    }
+
+    to{
+        left: -540px;
+    }
+}
+
+@keyframes opacidad{
+    0%{
+        opacity: 0%;
+    }
+
+    50%{
+        opacity: 80% ;
+    }
+
+    100%{
+        opacity: 0% ;
+    }
+}
 
 
 </style>
@@ -53,9 +145,22 @@
 
     <div class="container">
         <div class="land">
-            <img src="./img/wp3325949.webp" alt="espacio" width="110%"  style="position:absolute;z-index: 1;">
+            <img src="./img/wp3325949.webp" alt="espacio" width="110%"  
+            style="position:absolute;z-index: 1;">
         </div>
 
+
+        <div class="particulas"  style="">
+                <img src="./img/part.webp" alt="">
+
+        </div>
+
+        <div class="particulas"  style="position: absolute;
+        transform: scale(30%,15%); animation:moverHorizontaldos 20s linear, 
+        opacidad 15s alternate-reverse;">
+            <img src="./img/part.webp" alt="">
+
+    </div>
 
         <div class="chief">
             <img src="./img/chief.png" alt="soldier"  width="36%" style="position:absolute;z-index: 2;bottom: -100px; right: -80px;" >
@@ -64,10 +169,10 @@
 
 
     <div class="nave una">
-        <img src="./img/navebase.png" alt="ship" width="40%"  >
+        <img src="./img/naveb.webp" alt="ship" width="60%"  >
     </div>
     <div class="nave dos">
-        <img src="./img/navealien.png" alt="" width="17%">
+        <img src="./img/navealien.png" alt="" width="100px">
     
     </div>
     <div class="nave tres">
@@ -75,7 +180,22 @@
     </div>
 
     
-    <div class="nave cuatro">
+    <div class="shoot one">
+        <img src="./img/sh1a.webp" alt="" width="5%">
+    </div>
+
+    <div class="shoot one">
+        <img src="./img/sh1a.webp" alt="" width="7%" 
+        style="bottom: 100px; right: 50px; transform: rotate(10deg);
+        ">
+    </div>
+    <div class="shoot one">
+        <img src="./img/sh1a.webp" alt="" width="9%" 
+        style="bottom: 150px; right: 50px;
+        ">
+    </div>
+    
+    <div class="shoot two">
         
     </div>
 <!-- 
@@ -85,7 +205,7 @@
 
 
 
-        <div class="montanha"  style="height:100vh;position:relative;">
+        
           <div class="mount-one"></div> 
           <div class="mount-two"></div>
           <div class="mount-three"></div>
