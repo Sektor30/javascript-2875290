@@ -4,28 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>GAME-POST</title>
     
+
+<style>
+.una{
+    position: absolute;
+    z-index: 1;
+    right:0 ;
+    transform: scaleX(-1);
+    
+}
+
+.dos{   position: absolute;
+    z-index: 1;
+   left: 0;
+   top: 40px;
+
+}
+
+
+.tres{
+    position: absolute;
+    z-index: 1;
+   left: -450px;
+   top: 250px;
+   border: 2px solid red;
+   transform: scaleX(-1);
+
+}
+
+
+.car{
+    position: absolute;
+    z-index: 2;
+    border: 3px solid red;
+    bottom: 40px;
+    right: -150px;
+}
+
+
+
+
+</style>
+
 </head>
 <body>
 
     <div class="container">
-        <div class=""></div>
+        <div class="land">
+            <img src="./img/wp3325949.webp" alt="espacio" width="110%"  style="position:absolute;z-index: 1;">
+        </div>
 
 
-        <div class="">
-            
+        <div class="chief">
+            <img src="./img/chief.png" alt="soldier"  width="36%" style="position:absolute;z-index: 2;bottom: -100px; right: -80px;" >
     </div>
-    <div class="">
-        
+
+
+
+    <div class="nave una">
+        <img src="./img/navebase.png" alt="ship" width="40%"  >
     </div>
-    <div class="">
-        
+    <div class="nave dos">
+        <img src="./img/navealien.png" alt="" width="17%">
     
     </div>
-    <div class="">
+    <div class="nave tres">
+        <img src="./img/alien.png"  width="20%"  alt="">
+    </div>
+
+    
+    <div class="nave cuatro">
         
     </div>
+<!-- 
+    <div class="car">
+        <img src="./img/car.png" alt="" width="36%">
+    </div> -->
 
 
 
@@ -34,7 +90,7 @@
           <div class="mount-two"></div>
           <div class="mount-three"></div>
         
-
+</div>
     
 </body>
 </html>
