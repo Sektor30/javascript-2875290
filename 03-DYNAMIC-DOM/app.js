@@ -17,13 +17,13 @@ function crear(){
     ball.classList.add('pelotica');
     ball.style.backgroundColor = listcolor.value;
     ball.innerText = n++;
-    /* ball.innerHTML = equis; */
+    /* ball.innerHTML = equis; */ /* erase text */
     ball.appendChild(equis)
 
-    console.log(equis)
+    /* console.log(equis) */
 
     main.appendChild(ball);
-    console.log(ball)
+    /* console.log(ball) */
 
 }
 
@@ -34,10 +34,28 @@ function borrarpantalla(){
 }
 
 function borrarElement(e){
-    console.log('le di click a la pelotica' +' '+ e.target.innerText)
-    main.removeChild(e.target)
+    /* console.log('le di click a la pelotica' +' '+ e.target.innerText)
+    main.removeChild(e.target) */
+
+    if(e.target.innerHTML=='x'){
+      main.removeChild(e.target.parentElement) 
+      console.log('borrar equis')
+    }
+
 }
+
+function borrarPelotica(e){
+  
+  if(e.target.innerHTML=='x'){
+    main.removeChild(e.target.parentElement) 
+    console.log('borrar equis')
+  }
+
+}
+
+
 
 btncrear.addEventListener('click', crear)
 btnBorrar.addEventListener('click', borrarpantalla)
 main.addEventListener('click',borrarElement)
+main.addEventListener('click',)
