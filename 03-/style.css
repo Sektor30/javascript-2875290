@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(166,165,165,1) 50%, rgba(59,59,59,1) 100%);
+}
+
+.boxColores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+    gap: 15px;
+}
+.boxColores select{
+    padding: 10px 20px;
+    border-radius: none;
+}
+.boxColores button{
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: bisque;
+    border: none;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 85%;
+    height: 500px;
+    max-width: 1400px;
+    margin: 30px auto 0 auto;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.pelotica{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+
