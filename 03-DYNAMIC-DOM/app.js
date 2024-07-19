@@ -27,7 +27,7 @@ function borrarpantalla(){
 
 function borrarElement(e){
     console.log('le di click a la pelotica' +' '+ e.target.innerText)
-    main.removeChild(main.removeChild())
+    main.removeChild(e.target)
 }
 
 btncrear.addEventListener('click', crear)
