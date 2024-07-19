@@ -8,13 +8,21 @@ let n = 1;
 
 function crear(){
     const ball = document.createElement('div');
-    ball.innerText = "";
+    const equis = document.createElement('button');
+
+    equis.innerText = 'x';
+    equis.classList.add('equis')
+
+    /* ball.innerText = ""; */
     ball.classList.add('pelotica');
     ball.style.backgroundColor = listcolor.value;
     ball.innerText = n++;
+    /* ball.innerHTML = equis; */
+    ball.appendChild(equis)
+
+    console.log(equis)
 
     main.appendChild(ball);
-
     console.log(ball)
 
 }

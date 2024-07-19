@@ -41,6 +41,7 @@ main{
     border-radius: 15px;
 }
 .pelotica{
+    position: relative;
   display: flex;
   justify-content:center;
   align-items:center;
@@ -49,5 +50,22 @@ main{
     border-radius: 50%;
     background-color: aquamarine;
     border: 2px solid black;
+}
+
+.equis{
+    position:absolute;
+    width:25px;
+    height:25px;
+    background-color: rgb(255, 90, 20);
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0px;
+    left: 0px;
+    top: -10px;
+    margin: auto;
+    cursor: pointer;
 }
 
