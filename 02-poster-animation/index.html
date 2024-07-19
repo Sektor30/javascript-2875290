@@ -8,134 +8,8 @@
     
 
 <style>
-.una{
-    position: absolute;
-    z-index: 1;
-    right:-100px ;
-}
 
 
-
-
-
-
-.dos{   position: absolute;
-    z-index: 1;
-   left: -280px;
-   top: 40px;
-   animation: movernave 8s linear ,movernavever 5s alternate-reverse , 
-   escala 10s infinite   ;
-   border: 2px solid green;
-
-}
-
-@keyframes escala{
-    0%{transform: scale(0,0);
-
-
-    }
-    100%{
-        transform: scale(3,3);
-
-    }
-}
-
-@keyframes movernave{
-    0%{
-        left: -100px;
-    }
-    100%{
-        left: 1300px;
-    }
-}
-
-@keyframes movernavever{
-    0%{ top: 200px;
-
-    }
-    100%{
-        top: 0px;
-    }
-}
-
-
-.tres{
-    position: absolute;
-    z-index: 1;
-   left: -450px;
-   top: 250px;
-   transform: scaleX(-1);
-
-}
-
-
-.car{
-    position: absolute;
-    z-index: 2;
-    border: 3px solid red;
-    bottom: 40px;
-    right: -150px;
-}
-
-.shoot>img{
-    position: absolute;
-    z-index: 1;
-    
-
-}
-
-.one>img{
-    position: absolute;
-    right: 150px ;
-    bottom: 150px;
-    z-index: 1;
-    border: 4px solid red;
-}
-
-.particulas{
-    position: absolute;
-    z-index: 1;
-    left: -540px;
-    top: -220px;
-    transform: scale(50%,50%);
-    animation: moverHorizontal 30s ease-out alternate-reverse,
-     opacidad 8s alternate-reverse ;
-}
-
-@keyframes moverHorizontal{
-    from{
-        left: -540px;
-    }
-
-    to{
-        left:-950px;
-    }
-}
-
-@keyframes moverHorizontaldos{
-    from{
-        
-        left:-900px;
-    }
-
-    to{
-        left: -540px;
-    }
-}
-
-@keyframes opacidad{
-    0%{
-        opacity: 0%;
-    }
-
-    50%{
-        opacity: 80% ;
-    }
-
-    100%{
-        opacity: 0% ;
-    }
-}
 
 
 </style>
@@ -149,8 +23,13 @@
             style="position:absolute;z-index: 1;">
         </div>
 
+        <div class="land-dos">
+            <img src="./img/wp3325949(2).webp" alt="espacio" width="110%"  
+            style="position:absolute;z-index: 2; top:-10px">
+        </div>
 
-        <div class="particulas"  style="">
+
+        <div class="particulas"  >
                 <img src="./img/part.webp" alt="">
 
         </div>
@@ -163,52 +42,71 @@
     </div>
 
         <div class="chief">
-            <img src="./img/chief.png" alt="soldier"  width="36%" style="position:absolute;z-index: 2;bottom: -100px; right: -80px;" >
+            <img src="./img/chief.png" alt="soldier"  width="250px" >
     </div>
 
 
+
+    <div class="nave una-version">
+        <img src="./img/naveb.webp" alt="ship" width="150px" 
+        style="position:absolute;z-index: 1;
+        right: -150px; animation:movernaveuna 8s ease-in-out 
+        infinite ;  escalanaveuno 3s infinite "  >
+    </div>
 
     <div class="nave una">
-        <img src="./img/naveb.webp" alt="ship" width="60%"  >
+        <img src="./img/naveb.webp" alt="ship" width="300px" >
     </div>
+
     <div class="nave dos">
         <img src="./img/navealien.png" alt="" width="100px">
     
     </div>
     <div class="nave tres">
-        <img src="./img/alien.png"  width="20%"  alt="">
+        <img src="./img/alien.png"  width="80px"  alt="">
     </div>
 
     
     <div class="shoot one">
-        <img src="./img/sh1a.webp" alt="" width="5%">
+        <img src="./img/sh1a.webp" alt="" width="5%" >
     </div>
 
     <div class="shoot one">
         <img src="./img/sh1a.webp" alt="" width="7%" 
-        style="bottom: 100px; right: 50px; transform: rotate(10deg);
-        ">
+        style="bottom: 100px; right:-400px; 
+        transform: rotate(10deg);animation-delay:3s;        ">
     </div>
     <div class="shoot one">
         <img src="./img/sh1a.webp" alt="" width="9%" 
-        style="bottom: 150px; right: 50px;
+        style="bottom: 150px; right: -500px;animation-delay:5s;
         ">
     </div>
     
     <div class="shoot two">
         
     </div>
+
+    <!-- <div class="star">
+        <img src="./img/star1.png" alt="" width="70px">
+
+    </div> --> 
+
+    <div class="due">
+        <img src="./img/rainstar.webp" alt="" width="1000px">
+
+    </div> 
 <!-- 
     <div class="car">
         <img src="./img/car.png" alt="" width="36%">
     </div> -->
 
-
+<div class="titulo" >
+    <img src="./img/halo-1.png" alt=""  width="300px" >
+</div>
 
         
-          <div class="mount-one"></div> 
-          <div class="mount-two"></div>
-          <div class="mount-three"></div>
+          
+          
         
 </div>
     
