@@ -3,10 +3,12 @@ body{
   }
   
   .container{
+    
     height: 400px;
     width:700px;
-    margin:120px auto;
+    margin:120px auto 20px auto;
     background-color:gray;
+    background-color:#5a6bff;
     overflow:hidden;
     position: relative;
   }
@@ -16,6 +18,7 @@ body{
 
 
   .una{
+   
     position: absolute;
     z-index: 3;
     right:-250px ;
@@ -61,6 +64,7 @@ body{
    animation: movernave 40s ease-out ,
    movernavever 40s alternate-reverse , 
    escala 40s infinite   ;
+  
   
   
 
@@ -138,10 +142,15 @@ body{
     right: -50px;
     animation: blured 1s ease-in-out,
     movechief .3s ;
-    
      
-              
+}
+
+.ball{
     
+    position:absolute;
+    z-index: 4;
+    bottom: 80px;
+    right: 333px;
 }
 
 @keyframes blured{
@@ -366,4 +375,25 @@ body{
     }
 }
 
-  
+.marco{
+ 
+    width:100px;
+   margin:auto;
+    
+}
+
+#btn{
+   margin-top: 5px;
+  border-radius: 10px;
+  background:blue;
+  color:white;
+  width:100%;
+  height:40%;
+ cursor:pointer;
+  font-size:20px;
+   margin:auto;
+  padding: 10px 0 ;
+    justify-content:center;
+
+ 
+}
