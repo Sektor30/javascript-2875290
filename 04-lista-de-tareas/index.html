@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>schedule list</title>
+
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: sans-serif;
+        background-color:rgb(9, 0, 44) ;
+    }
+
+    .container{
+        
+        width: 50%;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        
+    }
+
+    .image{ background: url(https://img.freepik.com/foto-gratis/signo-bano-puerta-madera_23-2149936894.jpg?t=st=1721679779~exp=1721683379~hmac=1dded7490f9d02a43d3f788353a23ef91ea767d5c80b316b5e7bd401b163c90f&w=900) no-repeat;
+        transform:scale(1,) ;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 50vh;
+        
+        border: 2px solid red;
+
+       
+
+    }
+
+
+   .buscador{
+        z-index: 3;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        border: 2px solid gray;
+        border-radius:5px 5px;
+        padding: 5px 10px;
+   }
+
+   nav{
+    width: 50%;
+    margin: auto;
+    
+   }
+
+   
+
+</style>
+
+<body>
+    <div class="image" >
+    
+    
+    <nav >
+        <div style="height: 50px; " >
+            <h1 style="width: 100%; text-align: center;">Tareas</h1>
+        </div>
+    </nav>
+    <header>
+        <div class="container uno" >
+
+        
+            <div class="buscador"  >
+                <div class="roundedOne" >
+                    
+                    <label for="roundedOne"></label>
+                  </div>
+
+                <input type="text" placeholder=" Crear nueva tarea "  >
+
+                <button id="btncrear">crear</button>
+                
+                 </input>
+
+
+            
+        </div>
+   
+    </div>
+
+            <div class="container dos">
+                <!-- <div>
+                <input type="checkbox" value="None" id="roundedOne" name="check" checked />
+            </div> -->
+            
+            </select>
+            
+            <button id="btnBorrar" style="background-color:#ff2519bd;">borrar</button>
+        </div>
+    </header>
+
+    <main id="main" >
+    </main>
+
+</div>
+
+
+
+
+    
+</body>
+</html>

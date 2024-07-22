@@ -46,7 +46,7 @@ function borrarElement(e){
 }
 
 function tacharPelotica(e){
-  e.target.style.textDecoration =' text-decoration-line: line-through;' 
+  e.target.style.textDecoration =' line-through'; 
   
  /*  if(e.target.innerHTML=='x'){
     main.(e.target.parentElement) 

@@ -11,8 +11,7 @@ function noche() {
      contenedor.style.backgroundColor = '#5a6bff';
      naveUno.style.animation="movernaveuna 10s reverse infinite";
      naveUno.style.transform="rotateY(180deg)";
-
-     jefe.style.transform= '';
+     jefe.style.animation= 'blured 10s ';
 
      e = 1;
     }
@@ -20,6 +19,7 @@ function noche() {
         contenedor.style.backgroundColor = 'black';
         naveUno.style.animation="movernaveuna 5s infinite";
         naveUno.style.transform="rotateY(360deg)";
+        jefe.style.animation= 'blured 3s ease-in-out';
         
         e = 0;
     }
@@ -27,7 +27,7 @@ function noche() {
 }
 
 
-function movernubes(){}    
+function movernubes(){    
 
     naveUno.style.animation="nubeuno 20s infinite reverse ";
 
