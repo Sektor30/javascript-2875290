@@ -41,16 +41,17 @@ function borrarElement(e){
       main.removeChild(e.target.parentElement) 
       console.log('borrar equis')
     }
+    
 
 }
 
-function borrarPelotica(e){
+function tacharPelotica(e){
+  e.target.style.textDecoration =' text-decoration-line: line-through;' 
   
-  if(e.target.innerHTML=='x'){
-    main.removeChild(e.target.parentElement) 
+ /*  if(e.target.innerHTML=='x'){
+    main.(e.target.parentElement) 
     console.log('borrar equis')
-  }
-
+  } */
 }
 
 
@@ -58,4 +59,4 @@ function borrarPelotica(e){
 btncrear.addEventListener('click', crear)
 btnBorrar.addEventListener('click', borrarpantalla)
 main.addEventListener('click',borrarElement)
-main.addEventListener('click',)
+main.addEventListener('click', tacharPelotica)
