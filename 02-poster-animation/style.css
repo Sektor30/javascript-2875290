@@ -22,9 +22,10 @@ body{
     position: absolute;
     z-index: 3;
     right:-250px ;
-    animation: movernaveuna 10s ease-in-out infinite;
+    animation: movernaveuna 10s ease-in-out infinite ;
     
 }
+
 
 
 
@@ -37,8 +38,19 @@ body{
         right:750px;
         transform: scale(30px,10px);
     }
-}
 
+}
+@keyframes movernaveunareverse{
+    0%{ right:750px;
+        
+        
+    }
+
+    100%{
+        right:-250px;
+        transform: scale(30px,10px);
+    }
+}
 
 
 @keyframes escalanaveuno{
@@ -159,7 +171,7 @@ body{
         
     50%{
 
-    }
+        }
 
   
     100%{
