@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,107 +8,144 @@
 
 </head>
 <style>
-    *{
+    * {
+        margin: 0;
+        padding: 0;
         box-sizing: border-box;
     }
 
-    body{
+    body {
         font-family: sans-serif;
-        background-color:rgb(9, 0, 44) ;
+        background-color: rgb(9, 0, 44);
+
     }
 
-    .container{
-        
+    .container {
+
         width: 50%;
         display: flex;
         margin: auto;
         justify-content: center;
-        
-    }
 
-    .image{ background: url(https://img.freepik.com/foto-gratis/signo-bano-puerta-madera_23-2149936894.jpg?t=st=1721679779~exp=1721683379~hmac=1dded7490f9d02a43d3f788353a23ef91ea767d5c80b316b5e7bd401b163c90f&w=900) no-repeat;
-        transform:scale(1,) ;
-        background-attachment: fixed;
-        background-size: cover;
-        height: 50vh;
-        
-        border: 2px solid red;
 
-       
+
 
     }
 
+    .dos {
+        margin-bottom: 30px;
+    }
 
-   .buscador{
+    .image {
+        background: gray;
+    }
+
+
+
+    .buscador {
         z-index: 3;
+        background: rgb(79, 79, 79);
         display: flex;
         margin: auto;
         justify-content: center;
-        border: 2px solid gray;
-        border-radius:5px 5px;
+        border-radius: 5px 5px;
         padding: 5px 10px;
-   }
+        margin-top: 50px;
+    }
 
-   nav{
-    width: 50%;
-    margin: auto;
-    
-   }
+    .btnBorrar {
+        margin: 30px 0 40px 0;
+        visibility: hidden;
+        background-color: #ff2519bd
+    }
 
-   
 
+    nav {
+        width: 24%;
+        margin: auto;
+
+
+    }
+
+
+    nav>h1 {
+        text-align: left;
+        width: 100%;
+        color: white;
+        font-size: 45px;
+        padding-top: 150px;
+        width: 100%;
+
+
+    }
+
+
+    .escribir {
+        border-radius: 10px;
+        font-size: 32px;
+        background: gray;
+    }
+
+    ::placeholder {
+        color: rgba(255, 255, 255, 0.656);
+    }
 </style>
 
 <body>
-    <div class="image" >
-    
-    
-    <nav >
-        <div style="height: 50px; " >
-            <h1 style="width: 100%; text-align: center;">Tareas</h1>
-        </div>
-    </nav>
-    <header>
-        <div class="container uno" >
-
-        
-            <div class="buscador"  >
-                <div class="roundedOne" >
-                    
-                    <label for="roundedOne"></label>
-                  </div>
-
-                <input type="text" placeholder=" Crear nueva tarea "  >
-
-                <button id="btncrear">crear</button>
-                
-                 </input>
+    <div class="image">
 
 
-            
-        </div>
-   
-    </div>
+        <nav>
+            <h1>Tareas</h1>
+        </nav>
+        <header>
+            <div class="container uno">
+
+
+                <div class="buscador">
+                    <div class="roundedOne">
+
+                        <label for="roundedOne"></label>
+                    </div>
+
+                    <input class="escribir" type="text" placeholder=" Crear nueva tarea ">
+
+                    <button id="btncrear">crear</button>
+
+                    </input>
+
+                </div>
+
+            </div>
 
             <div class="container dos">
                 <!-- <div>
                 <input type="checkbox" value="None" id="roundedOne" name="check" checked />
             </div> -->
-            
-            </select>
-            
-            <button id="btnBorrar" style="background-color:#ff2519bd;">borrar</button>
-        </div>
-    </header>
 
-    <main id="main" >
-    </main>
+                </select>
 
-</div>
+                <button class="btnBorrar">borrar</button>
+            </div>
+        </header>
+
+        <main id="main" style="border: 2px solid red; height: 30px;"> 
+            <div class="contenido" style="border: 2px solid green; 
+            height: 400px; width: 50%; margin: auto;">
+            <input type="text">
+                
+            </div>
+
+
+        
+        </main>
+
+    </div>
 
 
 
 
-    
+
 </body>
+
 </html>
