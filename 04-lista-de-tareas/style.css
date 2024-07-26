@@ -1,10 +1,102 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(9, 0, 44);
+
+}
+
+.container {
+
+    width: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+
+
+
+}
+
+.uno{
+    background-color: rgba(68, 68, 68, 0.759);
+    width: 40%;
+     height: 150px;
+     border-radius: 30px;
+}
+
+.dos {
+    margin-bottom: 30px;
+}
+
+
+
+.buscador {
+    
+    /* background: rgb(79, 79, 79); */
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    border-radius: 5px 5px;
+    padding: 5px 10px;
+    margin-top: 50px;
+    
+} 
+
+#btncrear{
+    border-radius: 10px ;
+    
+}
+
+.btnBorrar {
+    margin: 30px 0 40px 0;
+    background-color: #ff2519bd
+}
+
+
+nav {
+    width: 38%;
+    margin: auto;
+
+
+}
+
+
+nav>h2 {
+    
+    text-align: left;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.459);
+    font-size: 45px;
+    margin-bottom: 30px;
+    padding-top: 150px;
+    width: 100%;
+
+
+}
+
+
+.escribir {
+    border-radius: 10px;
+    font-size: 32px;
+    background: gray;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.656);
 }
 
 
 .image{
-    background-image:  url('./img/backgroundImage.jpg');
+    background-image:  linear-gradient(to right,
+     rgba(0, 0, 0, 0.59),rgba(10, 8, 15, 0.726))
+    ,url('./img/backgroundImage.jpg');
+    filter:opacity(30%);
     background-repeat: no-repeat;
     background-size: cover;
     filter: opacity(100%);
@@ -16,9 +108,10 @@
 
 ul{
 
-    
-    height: 1500px;
     width: 40%;
+    padding: auto 20px;
+    border-radius: 20px;
+    background-color: rgba(68, 68, 68, 0.759);
     margin: auto;
     z-index: 3;
     
@@ -32,17 +125,13 @@ li{
     color: #dbdbdb;
     padding: 20px ;
     background-color: gray;
-     width: 60%;
+     width: 70%;
      margin:auto;
-<<<<<<< HEAD
-        
-=======
-
->>>>>>> 20f6b23c6607cbfe37036773d6f0a656bfdfbdac
      border-radius: 10px;
      margin-bottom: 30px;
      display: flex;
      justify-content: space-between;
+     
 }
 
 li>p{
@@ -76,8 +165,10 @@ li>h1{
     border-radius: 50%;
     padding: auto 5px;
     text-align: center;
-    width: 10%;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
+    
 
 }
 
