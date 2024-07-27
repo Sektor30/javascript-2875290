@@ -13,39 +13,64 @@ btncrear.addEventListener('click', (e) => {
 
   const li = document.createElement('li')
   const p = document.createElement('p') 
-  const equis =  document.createElement('h1')
+ /*  const equis =  document.createElement('h1') */
 
   p.textContent = text;
 
-   equis.innerText = 'X';
-  equis.classList.add('button');
+  /*  equis.innerText = 'X';
+  equis.classList.add('button'); */
 
 
   li.appendChild(p);
-  li.appendChild(equis)
+  li.appendChild(addDeleteBtn());
+ /*  li.appendChild(equis) */
   ul.appendChild(li); 
+
+  input.value = "";
 
 });
 
-function borrarpantalla(){
+
+function addDeleteBtn() {
+  const deleteBtn = document.createElement('button');
+
+  deleteBtn.textContent = "X";
+  deleteBtn.className= "btn-delete";
+
+  deleteBtn.addEventListener('click',(e) => {
+    const item = e.target.parentElement;
+    ul.removeChild(item);
+
+  });
+   return deleteBtn;
+  
+}
+
+
+
+
+
+
+/* function borrarpantalla(){
   main.innerHTML='';
   n=0;
 }
+*/
 
-function borrarElement(e){
+/* function borrarElement(e){ */
   /* console.log('le di click a la pelotica' +' '+ e.target.innerText)
   main.removeChild(e.target) */
-
+/* 
   if(e.target.innerHTML=='X'){
     li.removeChild(e.target.parentElement) 
     console.log('borrar equis')
   }
  
-}
-
+} */ 
+/* 
 btnBorrar.addEventListener('click', borrarpantalla)
 main.addEventListener('click', borrarElement)
-
+ */
 
 
 

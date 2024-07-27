@@ -141,11 +141,6 @@ li>p{
     overflow:hidden;
 }
 
-li>h1{
-    color: #ffffff5c;
-    font-size: 30px;
-    
-}
 
 
 #roundedOne{
@@ -160,21 +155,21 @@ li>h1{
     accent-color: red;
 }
 
-li>h1{
-    border: 3px solid #ffffff5c;
+.btn-delete{
+    
     border-radius: 50%;
     padding: auto 5px;
     text-align: center;
     width: 40px;
     height: 40px;
     cursor: pointer;
-    
+    color: #fa0101e1;
+    font-size: 30px;
+    }
 
-}
-
-li>h1:hover{
+.btn-delete:hover{
     border: 3px solid #ffffff;
-    color:white;
+    color:rgb(19, 19, 19);
 }
 
 
