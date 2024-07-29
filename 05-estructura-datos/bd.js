@@ -5,19 +5,21 @@ let peliculasAnimacion = [
     director: "John Lasseter",
     guionista: "Joss Whedon, Andrew Stanton, Joel Cohen, Alec Sokolow",
     género: "Aventura, Comedia",
-    direccion:;
-    imagen:;
+    direccion: "https://www.imdb.com/title/tt0114709/"
+    ,
+    imagen:"https://m.media-amazon.com/images/I/71aBLaC4TzL._AC_UF894,1000_QL80_.jpg";
      }
     
      { 
         id:2;
-        nombre: "El Rey León",
+        nombre: "Toy Story",
         año: 1994,
         director: "Roger Allers, Rob Minkoff",
         guionista: "Irene Mecchi, Jonathan Roberts, Linda Woolverton",
-        género: "Aventura, Drama"
-        genero: [sci-fi];
-        image:;
+        género: "Aventura, Drama",
+        genero: [sci-fi],
+        direccion:"  ",
+        image:"     ";
             
     },
 
@@ -27,9 +29,9 @@ let peliculasAnimacion = [
     año: 2001,
     director: "Andrew Adamson, Vicky Jenson",
     guionista: "Ted Elliott, Terry Rossio, Joe Stillman, Roger S.H. Schulman",
-    género: "Aventura, Comedia"
-    direccion:;
-    imagen:;
+    género: "Aventura, Comedia",
+    direccion:"  https://www.imdb.com/title/tt0126029/",
+    imagen:"https://m.media-amazon.com/images/I/712YOIlvLEL._AC_UF894,1000_QL80_.jpg";
     },
 
     
@@ -39,9 +41,10 @@ let peliculasAnimacion = [
     año: 2003,
     director: "Andrew Stanton, Lee Unkrich",
     guionista: "Andrew Stanton, Bob Peterson, David Reynolds",
-    género: "Aventura, Comedia"
-    direccion:;
-    imagen:;
+    género: "Aventura, Comedia",
+    direccion:" https://www.imdb.com/title/tt0266543/
+ ",
+    imagen:" https://m.media-amazon.com/images/I/71u4lXw8PBL.jpg ";
     },
 
     {   
@@ -50,9 +53,9 @@ let peliculasAnimacion = [
         año: 2001,
         director: "Hayao Miyazaki",
         guionista: "Hayao Miyazaki",
-        género: "Fantasía, Aventura"
-    direccion:;
-    imagen:;
+        género: "Fantasía, Aventura",
+    direccion:" https://www.imdb.com/title/tt0245429/ ",
+    imagen:"https://i.ebayimg.com/images/g/8pMAAOSwtuVa8Ooo/s-l1200.jpg";
     },
 
     {   
@@ -62,8 +65,9 @@ let peliculasAnimacion = [
     director: "Brad Bird",
     guionista: "Brad Bird",
     género: "Acción, Aventura"
-    direccion:;
-    imagen:;
+    direccion:"  https://www.imdb.com/title/tt0317705/
+",
+    imagen:" https://m.media-amazon.com/images/I/711SjjEIhsL.jpg";
     },
 
     {   
@@ -73,8 +77,8 @@ let peliculasAnimacion = [
     director: "Andrew Stanton",
     guionista: "Andrew Stanton, Jim Reardon",
     género: "Ciencia Ficción, Aventura"
-    direccion:;
-    imagen:;
+    direccion:" https://www.imdb.com/title/tt0910970/  ",
+    imagen:" https://m.media-amazon.com/images/I/51RoZRgIHtL._AC_UF894,1000_QL80_.jpg";
     },
     
     {   
@@ -83,9 +87,9 @@ let peliculasAnimacion = [
         año: 2017,
         director: "Lee Unkrich, Adrian Molina",
         guionista: "Adrian Molina, Matthew Aldrich",
-        género: "Fantasía, Musical"
-    direccion:;
-    imagen:;
+        género: "Fantasía, Musical",
+    direccion:"   https://www.imdb.com/title/tt2380307/",
+    imagen:" https://gerente.com/co/wp-content/uploads/sites/16/2018/01/Coco-poster.jpg";
     },
     {   
         id:9,
@@ -94,8 +98,8 @@ let peliculasAnimacion = [
         director: "Byron Howard, Rich Moore",
         guionista: "Jared Bush, Phil Johnston",
         género: "Aventura, Comedia"
-    direccion:;
-    imagen:;
+    direccion:" https://www.imdb.com/title/tt2948356/ ",
+    imagen:"https://m.media-amazon.com/images/I/71hWkxTBHRL.jpg ";
     },
     {   
         id:10,
@@ -103,9 +107,9 @@ let peliculasAnimacion = [
         año: 2009,
         director: "Pete Docter, Bob Peterson",
         guionista: "Bob Peterson, Pete Docter",
-        género: "Aventura, Comedia"
-    direccion:;
-    imagen:;
+        género: "Aventura, Comedia",
+    direccion:" https://www.imdb.com/title/tt1049413/ ",
+    imagen:" https://m.media-amazon.com/images/I/71MRrvu3zPL._AC_UF894,1000_QL80_.jpg ";
     },
     {   
         id:11,
@@ -113,9 +117,9 @@ let peliculasAnimacion = [
         año: 2013,
         director: "Chris Buck, Jennifer Lee",
         guionista: "Jennifer Lee",
-        género: "Fantasía, Musical"
-    direccion:;
-    imagen:;
+        género: "Fantasía, Musical",
+    direccion:" https://www.imdb.com/title/tt2294449/  ",
+    imagen:" https://m.media-amazon.com/images/I/81IO0GXdZnL.jpg ";
     },
     {   
         id:12,
@@ -123,9 +127,10 @@ let peliculasAnimacion = [
         año: 2015,
         director: "Pete Docter, Ronnie del Carmen",
         guionista: "Pete Docter, Meg LeFauve, Josh Cooley",
-        género: "Comedia, Drama"
-    direccion:;
-    imagen:;
+        género: "Comedia, Drama",
+    direccion:" https://www.imdb.com/title/tt2096673/
+",
+    imagen:"  https://i.ebayimg.com/images/g/wtUAAOSwtqtk4Ytr/s-l1600.jpg";
     },
     {   
         id:13,
@@ -133,9 +138,9 @@ let peliculasAnimacion = [
         año: 2010,
         director: "Pierre Coffin, Chris Renaud",
         guionista: "Cinco Paul, Ken Daurio",
-        género: "Comedia, Familia"
-    direccion:;
-    imagen:;
+        género: "Comedia, Familia",
+    direccion:" https://www.imdb.com/title/tt1323594/ ",
+    imagen:"https://m.media-amazon.com/images/I/71M8-CdtLYL._AC_UF894,1000_QL80_.jpg  ";
     },
     
     {   
@@ -144,9 +149,9 @@ let peliculasAnimacion = [
         año: 2016,
         director: "Ron Clements, John Musker",
         guionista: "Jared Bush",
-        género: "Aventura, Fantasía"
-    direccion:;
-    imagen:;
+        género: "Aventura, Fantasía",
+    direccion:" https://www.imdb.com/title/tt3521164/ ",
+    imagen:" https://m.media-amazon.com/images/I/81rjqvHFtkL.jpg ";
     },
     {   
         id:15,
@@ -154,9 +159,9 @@ let peliculasAnimacion = [
         año: 2014,
         director: "Don Hall, Chris Williams",
         guionista: "Jordan Roberts, Robert L. Baird, Daniel Gerson",
-        género: "Aventura, Ciencia Ficción"
-    direccion:;
-    imagen:;
+        género: "Aventura, Ciencia Ficción",
+    direccion:"https://www.imdb.com/title/tt2245084/  ",
+    imagen:" https://i.pinimg.com/originals/2c/9d/ff/2c9dff6367da454e9b1eb082098816e3.jpg ";
     },
     {   
         id:16,
@@ -164,8 +169,9 @@ let peliculasAnimacion = [
         año: 2007,
         director: "Brad Bird, Jan Pinkava",
         guionista: "Brad Bird, Jan Pinkava, Jim Capobianco",
-        género: "Comedia, Familia"
-    direccion:;
+        género: "Comedia, Familia",
+    direccion:"https://www.imdb.com/title/tt0382932/
+ ",
     imagen:;
     },
     {   
@@ -174,8 +180,8 @@ let peliculasAnimacion = [
         año: 2008,
         director: "Mark Osborne, John Stevenson",
         guionista: "Jonathan Aibel, Glenn Berger",
-        género: "Acción, Comedia"
-    direccion:;
+        género: "Acción, Comedia",
+    direccion:" https://www.imdb.com/title/tt0441773/ ",
     imagen:;
     },
     {   
@@ -185,7 +191,7 @@ let peliculasAnimacion = [
         director: "Henry Selick",
         guionista: "Caroline Thompson, Michael McDowell",
         género: "Fantasía, Musical"
-    direccion:;
+    direccion:" https://www.imdb.com/title/tt0107688/  ";
     imagen:;
     },
     {   
@@ -194,8 +200,9 @@ let peliculasAnimacion = [
         año: 2001,
         director: "Pete Docter, David Silverman, Lee Unkrich",
         guionista: "Andrew Stanton, Daniel Gerson",
-        género: "Comedia, Familia"
-    direccion:;
+        género: "Comedia, Familia",
+    direccion:" https://www.imdb.com/title/tt0198781/
+  ",
     imagen:;
     },
     
@@ -205,8 +212,8 @@ let peliculasAnimacion = [
         año: 1995,
         director: "Yoshifumi Kondō",
         guionista: "Hayao Miyazaki",
-        género: "Romance, Drama"
-    direccion:;
+        género: "Romance, Drama",
+    direccion:"  https://www.imdb.com/title/tt0114694/ ",
     imagen:;
     },
     
@@ -216,8 +223,8 @@ let peliculasAnimacion = [
     año: 2002,
     director: "Hiroyuki Morita",
     guionista: "Reiko Yoshida",
-    género: "Fantasía, Aventura"
-    direccion:;
+    género: "Fantasía, Aventura",
+    direccion:"https://www.imdb.com/title/tt0366780/  ";
     imagen:;
     },
     
@@ -227,8 +234,8 @@ let peliculasAnimacion = [
         año: 2013,
         director: "Makoto Shinkai",
         guionista: "Makoto Shinkai",
-        género: "Romance, Drama"
-    direccion:;
+        género: "Romance, Drama",
+    direccion:" https://www.imdb.com/title/tt2195041/ ",
     imagen:;
     },
     
@@ -240,7 +247,8 @@ let peliculasAnimacion = [
         director: "Hiromasa Yonebayashi",
         guionista: "Hiromasa Yonebayashi, Keiko Niwa, Masashi Ando",
         género: "Drama, Fantasía"
-    direccion:;
+    direccion:" https://www.imdb.com/title/tt3691740/
+ ";
     imagen:;
     },
     {   
@@ -249,8 +257,9 @@ let peliculasAnimacion = [
         año: 2010,
         director: "Hiromasa Yonebayashi",
         guionista: "Hayao Miyazaki, Keiko Niwa",
-        género: "Fantasía, Aventura"
-    direccion:;
+        género: "Fantasía, Aventura",
+    direccion:" https://www.imdb.com/title/tt3691740/
+ ",
     imagen:;
     },
     {   
@@ -259,8 +268,8 @@ let peliculasAnimacion = [
     año: 2001,
     director: "Satoshi Kon",
     guionista: "Sadayuki Murai",
-    género: "Drama, Romance"
-    direccion:;
+    género: "Drama, Romance",
+    direccion:" https://www.imdb.com/title/tt0268380/ ",
     imagen:;
     },
     {   
@@ -269,8 +278,9 @@ let peliculasAnimacion = [
         año: 2009,
         director: "Mamoru Hosoda",
         guionista: "Satoko Okudera",
-        género: "Ciencia Ficción, Aventura"
-    direccion:;
+        género: "Ciencia Ficción, Aventura",
+    direccion:" https://www.imdb.com/title/tt1474276/
+ ",
     imagen:;
     },
     {   
@@ -279,8 +289,8 @@ let peliculasAnimacion = [
         año: 2012,
         director: "Mamoru Hosoda",
         guionista: "Mamoru Hosoda, Satoko Okudera",
-        género: "Drama, Fantasía"
-    direccion:;
+        género: "Drama, Fantasía",
+    direccion:" https://www.imdb.com/title/tt2106486/  ";
     imagen:;
     },
     {   
@@ -290,7 +300,7 @@ let peliculasAnimacion = [
         director: "Takeshi Koike",
         guionista: "Katsuhito Ishii",
         género: "Acción, Ciencia Ficción"
-    direccion:;
+    direccion:"  https://www.imdb.com/title/tt1190870/",
     imagen:;
     },
     {   
@@ -299,8 +309,8 @@ let peliculasAnimacion = [
         año: 2013,
         director: "Isao Takahata",
         guionista: "Isao Takahata, Riko Sakaguchi",
-        género: "Fantasía, Drama"
-    direccion:;
+        género: "Fantasía, Drama",
+    direccion:"  The Tale of the Princess Kaguya ",
     imagen:;
     },
     
@@ -310,8 +320,8 @@ let peliculasAnimacion = [
         año: 1992,
         director: "Hayao Miyazaki",
         guionista: "Hayao Miyazaki",
-        género: "Aventura, Comedia"
-    direccion:;
+        género: "Aventura, Comedia",
+    direccion:" https://www.imdb.com/title/tt0104652/",
     imagen:;
     },
     
