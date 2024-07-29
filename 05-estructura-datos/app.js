@@ -1,4 +1,90 @@
 
+const container = document.querySelector('.contenedor')
+
+
+/* peliculasAnimacion.forEach(element => { */
+  /* teclas alt ctl } */
+  /* let card = document.createElement('div');
+ 
+
+ card.innerHTML= `
+      <img src="${element.imagen}" 
+      alt="" width="10%">
+      <h1>${element.nombre}</h1>
+      <p>${element.género[0]}</>
+      <p>${element.year}Año película</p>
+ `
+    
+   container.appendChild(card); 
+
+});
+ */
+
+
+peliculasAnimacion.forEach(element => {
+    let card = document.createElement('div');
+
+  card.innerHTML= `
+  <div class="slide-container">
+  
+  <div class="wrapper">
+    <div class="clash-card ">
+      <div class="clash-card__image clash-card__image--barbarian">
+         <img src="${element.imagen}" url alt="" width="50%"/> 
+      </div>
+      <div class="clash-card__level">card</div>
+      <div class="clash-card__unit-name">PELÍCULAS</div>
+      <div class="clash-card__unit-description">
+       <ul>
+
+        <li> ${element.nombre} </li>
+        <li>${element.year} </li>
+        <li>${element.director} </li>
+        <li>${element.guionista} </li>
+        <li>${element.genero} </li>
+        <li>${element.direccion}</li>
+       </ul>
+      </div>
+
+      </div>
+  `
+  container.appendChild(card)
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* EJEMPLO DE MODELO BD*/
 

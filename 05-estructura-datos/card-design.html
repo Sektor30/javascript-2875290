@@ -21,14 +21,10 @@ body {
 }
 
 .slide-container {
-display: flex ;
-flex-wrap:wrap;
+  
   margin: auto;
   width: 600px;
   text-align: center;
-  border: 2px solid red;
-  
- 
   
 }
 
@@ -37,15 +33,13 @@ flex-wrap:wrap;
  
   border-radius:30px;
   background: white;
-  width: 350px;
-
+  width: 300px;
+  display: inline-block;
   margin: auto;
-  
+  position: relative;
   text-align: center;
   box-shadow: -1px 15px 30px -12px black;
   z-index: 9999;
-  
-  margin-bottom: 10px;
 }
 
 .clash-card__image {
@@ -53,11 +47,11 @@ flex-wrap:wrap;
   position: relative;
   height: 230px;
   margin-bottom: 35px;
- 
+  
 }
 
 .clash-card__image--barbarian {
-    /* background-image: url(https://m.media-amazon.com/images/I/71aBLaC4TzL._AC_UF894,1000_QL80_.jpg); */
+    background-image: url(https://m.media-amazon.com/images/I/71aBLaC4TzL._AC_UF894,1000_QL80_.jpg);
     background-size: cover;
     
 
@@ -112,8 +106,7 @@ li{
   
   color: white;
   font-weight: 700;
-  border-bottom-left-radius: $border-radius-size;
-  border-bottom-right-radius: $border-radius-size;
+
   border: 2px solid red;  
   
   
@@ -131,12 +124,12 @@ li{
 </style>
 
 <body>
-   <!--  <div class="slide-container">
+    <div class="slide-container">
   
   <div class="wrapper">
     <div class="clash-card barbarian">
       <div class="clash-card__image clash-card__image--barbarian">
-         <img src="" url alt="" width="50%"/> 
+        <!-- <img src="" alt="" width="50%"/> -->
       </div>
       <div class="clash-card__level">card</div>
       <div class="clash-card__unit-name">PELÍCULAS</div>
@@ -152,12 +145,14 @@ li{
        </ul>
       </div>
 
-      </div> -->
-
-      <div class="contenedor">
-
       </div>
-      
+
+
+
+
+
+
+
 
     
     <script src="bd.js"></script>
