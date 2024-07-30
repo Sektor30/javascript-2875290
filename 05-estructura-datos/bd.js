@@ -25,7 +25,7 @@ let peliculasAnimacion = [
      },
     
     {   id:2,
-        nombre: "Toy Story",
+        nombre: "como entrenar a tu dragon",
     year: 1995,
     director: "John Lasseter",
     guionista: "Joss Whedon, Andrew Stanton, Joel Cohen, Alec Sokolow",
@@ -276,7 +276,7 @@ let peliculasAnimacion = [
     guionista: "Sadayuki Murai",
     género: "Drama, Romance",
     direccion:" https://www.imdb.com/title/tt0268380/ ",
-    imagen:"https://m.media-amazon.com/images/I/81RMFc9paeL._AC_UF894,1000_QL80_.jpg"
+    imagen:"https://m.media-amazon.com/images/M/MV5BMTAzMTVjYzMtOTBmZi00NjgxLTgwODctYWE0ZGE4N2Q5NDJjXkEyXkFqcGdeQXVyNjUxMDQ0MTg@._V1_.jpg"
     },
     {   
         id:26,
@@ -286,7 +286,7 @@ let peliculasAnimacion = [
         guionista: "Satoko Okudera",
         género: "Ciencia Ficción, Aventura",
     direccion:" https://www.imdb.com/title/tt1474276/",
-    imagen:"https://m.media-amazon.com/images/I/81RMFc9paeL._AC_UF894,1000_QL80_.jpg"
+    imagen:"https://m.media-amazon.com/images/I/71ROFWz1pBL._AC_UF894,1000_QL80_.jpg"
     },
     {   
         id:27,
@@ -296,7 +296,7 @@ let peliculasAnimacion = [
         guionista: "Mamoru Hosoda, Satoko Okudera",
         género: "Drama, Fantasía",
     direccion:" https://www.imdb.com/title/tt2106486/",
-    imagen:"https://m.media-amazon.com/images/I/81RMFc9paeL._AC_UF894,1000_QL80_.jpg"
+    imagen:"https://m.media-amazon.com/images/M/MV5BOTk0NzA1N2QtYWQ2ZS00MDBlLWE0NWEtZWE3OGRhOTc1YTk5XkEyXkFqcGdeQXVyMTM1MDExOTE2._V1_.jpg"
     },
     {   
         id:28,
@@ -306,7 +306,7 @@ let peliculasAnimacion = [
         guionista: "Katsuhito Ishii",
         género: "Acción, Ciencia Ficción",
     direccion:" https://www.imdb.com/title/tt1190870/",
-    imagen:"https://m.media-amazon.com/images/I/81RMFc9paeL._AC_UF894,1000_QL80_.jpg"
+    imagen:"https://m.media-amazon.com/images/I/51Z7YHWZnzL._AC_UF894,1000_QL80_.jpg"
     },
     {   
         id:29,
@@ -316,7 +316,7 @@ let peliculasAnimacion = [
         guionista: "Isao Takahata, Riko Sakaguchi",
         género: "Fantasía, Drama",
     direccion:"  The Tale of the Princess Kaguya ",
-    imagen:"https://m.media-amazon.com/images/I/81RMFc9paeL._AC_UF894,1000_QL80_.jpg"
+    imagen:"https://static.wikia.nocookie.net/greatestmovies/images/8/87/The_Tale_of_the_Princess_Kaguya.jpg/revision/latest?cb=20231102235253"
     },
     
     {   
@@ -327,7 +327,7 @@ let peliculasAnimacion = [
         guionista: "Hayao Miyazaki",
         género: "Aventura, Comedia",
     direccion:" https://www.imdb.com/title/tt0104652/",
-    imagen:"https://m.media-amazon.com/images/I/81RMFc9paeL._AC_UF894,1000_QL80_.jpg"
+    imagen:"https://ghiblicollection.com/cdn/shop/products/PoRoSB_Cover_72dpi.png?v=1675794760"
     },
     
 ] 
