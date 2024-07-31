@@ -41,12 +41,13 @@ peliculasAnimacion.forEach(element => {
         <li class="year">${element.year} </li>
         <li>${element.director} </li>
         <li>${element.guionista} </li>
-        <li>${element.genero} </li>
+        <li>${element.genero[0]} </li>
         <li> ${element.direccion} </a></li>
        </ul>
       </div>
 
       </div>
+          
   `
   container.appendChild(card)
 })
