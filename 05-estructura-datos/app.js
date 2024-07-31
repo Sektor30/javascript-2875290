@@ -24,7 +24,7 @@ const container = document.querySelector('.contenedor')
 peliculasAnimacion.forEach(element => {
     let card = document.createElement('div');
 
-  card.innerHTML= `
+  card.innerHTML=` 
   <div class="slide-container">
   
   <div class="wrapper">
