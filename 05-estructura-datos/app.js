@@ -39,12 +39,12 @@ peliculasAnimacion.forEach(element => {
       <div class="clash-card__unit-description">
        <ul>
 
-        <li> ${element.nombre} </li>
-        <li>${element.year} </li>
+        <li class= "nombre"> ${element.nombre} </li>
+        <li class="year">${element.year} </li>
         <li>${element.director} </li>
         <li>${element.guionista} </li>
         <li>${element.genero} </li>
-        <li>${element.direccion}</li>
+        <li> ${element.direccion} </a></li>
        </ul>
       </div>
 
