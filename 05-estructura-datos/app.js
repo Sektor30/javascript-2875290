@@ -25,6 +25,8 @@ peliculasAnimacion.forEach(element => {
     let card = document.createElement('div');
 
   card.innerHTML= `
+  
+  
   <div class="slide-container">
   
   <div class="wrapper">
@@ -47,6 +49,7 @@ peliculasAnimacion.forEach(element => {
       </div>
 
       </div>
+          
   `
   container.appendChild(card)
 })
