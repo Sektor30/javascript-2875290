@@ -209,7 +209,7 @@ let peliculasAnimacion = [
         year: 2001,
         director: "Pete Docter, David Silverman, Lee Unkrich",
         guionista: ["Andrew Stanton", "Daniel Gerson"],
-        genero: "Comedia, Familia",
+        genero: ["Comedia", "Familia"],
     direccion:" https://www.imdb.com/title/tt0198781/",
     imagen:"https://i.ebayimg.com/thumbs/images/g/QKAAAOSw-DxmBI7M/s-l640.jpg"
     },
@@ -316,7 +316,7 @@ let peliculasAnimacion = [
         guionista: "Isao Takahata, Riko Sakaguchi",
         genero: ["Fantasía", "Drama"],
     direccion:"  The Tale of the Princess Kaguya ",
-    imagen:"https://static.wikia.nocookie.net/greatestmovies/images/8/87/The_Tale_of_the_Princess_Kaguya.jpg/revision/latest?cb=20231102235253"
+    imagen:"https://upload.wikimedia.org/wikipedia/en/6/68/The_Tale_of_the_Princess_Kaguya_%28poster%29.jpg"
     },
     
     {   

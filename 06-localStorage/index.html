@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOCAL STORAGE 🐳</title>
+</head>
+<style>
+    body{
+        background-color: rgb(0, 0, 65);
+        font-size: 30px;
+        color: white;
+        font-family: sans-serif;
+        letter-spacing: 10px;
+    }
+
+    .contenedor{
+       border: 1px gray solid ;
+       border-radius: 10px;
+        width: 20% ;
+        margin: auto;
+        padding: 50px;
+       
+    }
+
+    
+
+    .submit{
+        width: 50%;
+    }
+
+</style>
+<body>
+    
+        <h1>🐳 LOCAL STORAGE 🐳</h1>
+        <!-- <button onclick="agregarStorage()">EJECUTAR local storage</button> -->
+
+
+        <div class="contenedor">
+            <form action="/enviar-formulario" method="post">
+                <label for="nombre">Nombre de usuario:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="user name" >
+                
+                
+                <label for="pass">password</label>
+                <input type="password" id="email" name="email" required placeholder="password">
+                
+            
+                <input type="submit" class="submit" value="Enviar">
+            </form>
+
+        </div>
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>
