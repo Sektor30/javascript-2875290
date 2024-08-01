@@ -1,3 +1,12 @@
+const ingresoUsuario = document.querySelector('#nombre')
+const clave = document.querySelector('#clave')
+const submit = document.querySelector('#submit')
+
+
+console.log(ingresoUsuario.value);
+
+
+
 
 let nombre ="josé"
 let items = ['uno','dos','tres','cuatro','cinco','seis' ]
