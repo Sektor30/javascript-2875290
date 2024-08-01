@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOCAL STORAGE 🐳</title>
+    <title>registro 🐳</title>
 </head>
 <style>
     body{
@@ -56,27 +56,30 @@
 </style>
 <body>
     
-        <h1><span>🐳</span> LOCAL STORAGE 🐳</h1>
+        <h1><span>🐳</span> registro 🐳</h1>
         <!-- <button onclick="agregarStorage()">EJECUTAR local storage</button> -->
 
 
         <div class="contenedor">
-            <form action="/enviar-formulario" method="post">
+            <form action="/enviar-formulario" class="formulario" method="post">
                 <div>
                 <label for="nombre">Nombre de usuario:</label>
                 <input type="text" id="nombre" name="nombre" required placeholder="user name" >
-                </div>
+            </div>
                 
                 <label for="pass">password</label>
                 <input type="password" id="clave" name="email" required placeholder="password">
                 
-                <button type="submit">enviar</button>
-                
+            
+                <button type="submit">registrar</button>
             </form>
 
         </div>
+
+        <a href="./index.html">INICIAR SESION</a>
     
 
-    <script src="./app.js"></script>
+    <script src="./registro.js"></script>
+    
 </body>
 </html>
