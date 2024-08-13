@@ -1,4 +1,6 @@
 
+console.log('thatsAll')
+
 const container = document.querySelector('.container')
 
 
@@ -15,7 +17,7 @@ fetch(url)
         box.innerHTML = `<img src="${element.image}" width="200px"
         <p> ${element.name} </p>
         `
-
+        console.log(element.image)
         container.appendChild(box)        
 
 
