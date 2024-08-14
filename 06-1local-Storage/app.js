@@ -12,11 +12,11 @@ let pass = 1234 */
 
 
 /* se envia informacion registro-js */
- let user ={
+ /* let user ={
     userName: 'sergio',
     userPass: '1234',
 }
-localStorage.setItem('user',JSON.stringify(user)) 
+localStorage.setItem('user',JSON.stringify(user))  */
 
 
 // inicio de sesion
@@ -28,8 +28,8 @@ function validarUsuario(e) {
     console.log(currentUser.userName)
     console.log(currentUser.userPass)
 
-    console.log(Boolean(ingresoUsuario.value ===  user.userName));
-    console.log(Boolean(clave.value ===  user.userPass));
+    console.log(Boolean(ingresoUsuario.value ===  currentUser.userName));
+    console.log(Boolean(clave.value ===  currentUser.userPass));
 
     if(ingresoUsuario.value === currentUser.userName && clave.value === currentUser.userPass){
         console.log('feliciadades puedes entrar 👍')

@@ -1,4 +1,3 @@
-console.log('ejecutando')
 
 const formulario = document.querySelector('.formulario')
 const username = document.querySelector('.username')
