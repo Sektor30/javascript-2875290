@@ -173,7 +173,7 @@ header a{
   .contenedor{
     display: flex ;
   flex-wrap:wrap;
-  width: 200%;
+  width: 100%;
   justify-content: center;
   margin: 45px auto;
   
