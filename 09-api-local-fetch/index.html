@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>API LOCAL</title>
 </head>
 <body>
 
@@ -12,15 +13,28 @@
             <form id="buscador">
                 <input id="textoBusqueda" type="text">
                 <select id="listaStatus">
-                    <option value="Alive">Animacion 2d 🎦</option>
-                    <option value="Dead">animacion 3d 🧊</option>
-                    <option value="unknown">Unknown 🩶</option>
+
+                    <option value="all">All </option>
+                    <option value="Aventura">Aventura </option>
+                    <option value="Fantasía">Fantasía </option>
+                    <option value="Acción">Acción </option>
+                    <option value="Ciencia ficción">ciencia ficcion </option>
+                    <option value="Comedia">comedia </option>
+                    <option value="Romance">romance </option>
+                    <option value="Drama">drama </option>
                 </select>
                 <button type="submit">Buscar</button>
             </form>
         </header>
-        <div class="container">
+
+
+        <div class="contenedor">
         </div>
+
+
+        <script src="./bd.js"></script>
+        <script src="./app.js"></script>
+        
     
 </body>
 </html>

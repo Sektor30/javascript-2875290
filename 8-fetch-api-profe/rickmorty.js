@@ -40,10 +40,6 @@ buscador.addEventListener('submit',filtrar)
 
 
 
-
-
-
-
 function mostrarResults(results){
   results.forEach(element => {
 
