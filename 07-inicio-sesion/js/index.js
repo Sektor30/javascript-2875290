@@ -37,7 +37,7 @@ const password = document.querySelector('.password')
 
 
 function validarUsuario (e){
-    /* e.preventDefault();  */
+      /* e.preventDefault();  */  
 
     let currentUser = JSON.parse( localStorage.getItem('user') )
     
