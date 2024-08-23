@@ -3,6 +3,125 @@
     margin: 0px;
   }
   
+  
+:root{
+
+}
+
+body {
+    background-color: #b5b5b5;
+    font-family: Arial, sans-serif;
+    color: #FFFFFF;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    max-width: 1400px;
+   
+    margin: auto;
+}
+
+#buscador{
+    
+    margin: auto;
+    width: 20%;
+    justify-content: center;
+  padding: 200px auto;
+    align-items: center;
+}
+
+#listaStatus{
+    
+}
+.card {
+    display: flex;
+    background-color: #3C3F41;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 250px;
+    flex-grow: 1;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* .card:hover{
+    transform: scale(1.1); 
+    cursor: pointer; 
+    
+} */
+.card img{
+    height: 100%;
+    object-fit: cover;
+}
+.section{
+    position: relative;
+    padding-left: 10px;
+    display:flex ;
+    flex-direction: row;
+}
+.circle {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+
+}
+.green {
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.gray{
+    background-color: #909395;
+}
+.caracter-img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
+.info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #FFFFFF;
+    max-width: 196px;
+}
+
+.estado {
+    margin-top: 8px;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+
+.detalle {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.detalle strong {
+    color: #AAAAAA;
+}
+
+
+
   body {
    
     background-size: cover;
@@ -16,6 +135,8 @@
     background-color: rgb(212, 212, 212);
     display: flex;
     flex-wrap: wrap;
+    height: 150px;
+    
 
 }
 
@@ -59,6 +180,16 @@ header a{
     border-radius: 5px ;
 
 }
+
+
+#textoBusqueda[type=text]{
+  
+  padding: 10px  10px;
+  margin: 6px 0px;
+  border-radius: 10px ;
+
+}
+
   
   .slide-container {
   
@@ -71,7 +202,6 @@ header a{
   
   .clash-card {
    
-    
     min-height: 600px;
     border-radius:30px;
     background: white;
@@ -80,12 +210,13 @@ header a{
     text-align: center;
     box-shadow: -1px 15px 30px -12px black;
     z-index: 9999;
-    margin-bottom: 10px;
+    margin-bottom: 60px;
   }
 
   .clash-card:hover{
+    
     transform: scale(1.1);
-    transition: ease-in 0.2s;
+    transition: width .35s ease-in-out;
   }
   
   .clash-card__image {
