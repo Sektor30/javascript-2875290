@@ -54,7 +54,7 @@ input[type=text]{
      height: 90px;
      background: rgb(174, 174, 174);
       margin-top: 10px; 
-      border: 2px solid red;     
+       
 }
 
 
@@ -151,7 +151,7 @@ footer{
 @media screen and (max-width:500px) {
 
     body{
-        
+        width: 100%;
     }
 
     .busqueda{
@@ -204,9 +204,12 @@ footer{
 
 .container-uno > img{
     
-    margin-top:20px ;
-    width: 99%;
-    border: 2px solid green;
+    
+    width: 315px;
+    height: 215px;
+    
+    margin: 20px auto;    
+    
 }
 
 .list-dos{
@@ -215,6 +218,7 @@ footer{
     border-radius: 10px;
     display: block;
     visibility: visible;
+    top:-180px;
 }
 
 .list-dos >li{
@@ -224,8 +228,17 @@ footer{
     visibility: visible;
 }
 
+}
 
+@media screen and (max-width:500px){
 
+    .container-uno > img{
+    
+    
+        width: 100%;
+        margin: 20px auto;    
+        
+    }
 
 
 }
