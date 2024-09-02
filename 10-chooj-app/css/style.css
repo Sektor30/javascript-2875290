@@ -6,13 +6,19 @@
 
 body{
     background: gray;
+    
+}
+
+h1{
+    font-size: 20px;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
 }
 
 header{
     display: flex;
     justify-content:space-between;
     width: 100%;
-    
+    margin-top: 20px;
     flex-flow: wrap;
 }
 
@@ -21,10 +27,12 @@ header{
     
     margin: 20px 20px ;
     padding: 30px 60px;
-    background: rgb(47, 47, 47);
+    background: rgb(240, 240, 240);
     border-radius: 10px;
 
 }
+
+/* informacion de estilos de main de curso */
 
 .busqueda{
     margin-top:25px;
@@ -149,12 +157,16 @@ li{
 
 .list-dos{
 visibility: collapse;
+border: 2px solid green;
 }
 
 .list-dos >li{
     visibility: collapse;
+    
  
 }
+
+
 
 footer{
     display: flex;
@@ -271,7 +283,9 @@ footer{
 
 .list-dos{
     border: 2px solid rgb(48, 48, 48);
+    width:80% ;
     height: 100%;
+    margin: auto;
     border-radius: 10px;
     display: block;
     visibility: visible;
@@ -280,8 +294,9 @@ footer{
 .list-dos >li{
     padding: 10px;
     margin: 20px auto;
-    width: 90%;
+    width: 80%;
     visibility: visible;
+    
 }
 
 footer{
