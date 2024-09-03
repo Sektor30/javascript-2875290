@@ -9,9 +9,9 @@
 
     <style>
 
-
-        .entradas{height: 400px
-            ;padding: 10px;
+        .comunidad::marker{color: aqua;}
+        .entradas{height: 100%;
+            padding: 10px;
             width: 70%;
             margin:50px auto;
 
@@ -35,12 +35,12 @@
 
         .puntaje>i{color: rgb(250, 213, 1);
             margin-top: 40px;
-                
-
             }
 
         .descripcion{
             margin: 20px 0px 0px 20px;}
+
+
 
         footer{
             display: flex;
@@ -77,23 +77,14 @@
             footer{
                 width: 100%;
                 height: 660px;
-            }
-
-
-
-          
+            }          
         }
 
-
         @media screen and (max-width:420px){
-
-
 
           body{
             width: 600px;
           }
-
-
           
         }
 
@@ -126,18 +117,21 @@
     </div>
     <!-- end responsive search -->
 
+   
+
     <section class="hamb" style="position: relative;" >
         <i class="fa-solid fa-bars"></i>
-    <ul class="menu" style="display:flex; justify-content: space-evenly;">
-        <li>Módulos</li>
-        <li>Nosotros</li>
-        <li>Certificación</li>
-        <li>Contacto </li>
-        <li>Comunidad</li>
+    <ul class="menu" >
+        <li><a href="../curso.html">Módulos</a> </li>
+        <li><a href="#">Nosotros</a> </li>
+        <li><a href="#">Certificación</a> </li>
+        <li><a href="./formulario.html">Contacto</a>  </li>
+        <li class="comunidad"><a href="#">Comunidad</a> </li>
         
     </ul>    
 
     </section>
+
 
     
 
@@ -168,6 +162,8 @@
                 <div class="descripcion">
                     <h1>Un título</h1>
                     <p>aqui podras ver la informacion</p>
+                    <span style="border: 2px solid red;"> <a href="#"> ver más...</a> </span>
+
                 </div>
         </div>
         <div class="container entradas">
