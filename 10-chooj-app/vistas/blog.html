@@ -9,8 +9,38 @@
 
     <style>
 
-       
 
+        .entradas{height: 400px
+            ;padding: 10px;
+            width: 70%;
+            margin:50px auto;
+
+             box-shadow: 8px 6px rgba(61, 61, 61, 0.514);}
+        .img-news{
+            height: 200px; 
+            background-color: rgb(48, 48, 48);
+             margin-bottom:20px ;}
+        .usuarioContenedor{
+            display:flex;}
+
+        .usuario{width: 100px;
+            height: 100px;
+             border-radius: 50%;
+              margin-left: 20px;}
+         .puntaje{
+            width: 200px;
+            height: 100px;
+            margin-left: 20px;
+        }
+
+        .puntaje>i{color: rgb(250, 213, 1);
+            margin-top: 40px;
+                
+
+            }
+
+        .descripcion{
+            margin: 20px 0px 0px 20px;}
 
         footer{
             display: flex;
@@ -19,16 +49,50 @@
             margin-top: 30px;
             height: 240px;
             position: relative;
-            bottom: -524px;
+           
         }
 
         
 
         @media screen and (max-width:780px){
+            
+        .entradas{height: 100%;}
+
+
+            .usuarioContenedor{
+                padding: 10px 0px;
+               flex-flow: wrap;
+            }
+            
+            .puntaje{
+                margin-top:10px ;
+                width: 90%;
+            }
+
+            .descripcion{
+                margin: -30px 0px 0px 20px;}
+
+           
+
             footer{
                 width: 100%;
                 height: 660px;
             }
+
+
+
+          
+        }
+
+
+        @media screen and (max-width:420px){
+
+
+
+          body{
+            width: 600px;
+          }
+
 
           
         }
@@ -82,18 +146,66 @@
         <div></div>
     </div>
 
+
+    
     <!-- start blog site -->
-    <h1 style="width: 80%; justify-content: center; margin-left: 20px; color:rgba(255, 255, 255, 0.479) ;font-weight: lighter;" >NOTICIAS Y RECOMENDACIONES</h1>
+    <h1 style="width: 80%;justify-content: center;margin-left: 20px;color:rgba(255, 255, 255, 0.479);font-weight: lighter; margin-bottom: 40px;">
+        NOTICIAS Y RECOMENDACIONES</h1>
 
     <main>
         <div class="container entradas">
-            <div class="noticias ">
+            <div class="img-news"></div>
+            <div class="usuarioContenedor">
+                <div class="usuario" >
+                    <img src="https://img.freepik.com/psd-gratis/ilustracion-3d-persona-gafas-sol-cabello-verde_23-2149436201.jpg?t=st=1725329625~exp=1725330225~hmac=c8ad3265a11127481035ecbc96e03c48a99c32b23453d0953100ebd0a657bd49" 
+                    width="100%" alt="avatar" style="border-radius: 50%;">
                 
-                
-
-            </div>
-            
                 </div>
+                <div class="puntaje" > <i class="fa-solid fa-star"></i>
+                    </div>
+            </div>
+                
+                <div class="descripcion">
+                    <h1>Un título</h1>
+                    <p>aqui podras ver la informacion</p>
+                </div>
+        </div>
+        <div class="container entradas">
+            <div class="img-news"></div>
+            <div class="usuarioContenedor">
+                <div class="usuario" >
+                    <img src="https://img.freepik.com/psd-gratis/ilustracion-3d-persona-gafas-sol-cabello-verde_23-2149436201.jpg?t=st=1725329625~exp=1725330225~hmac=c8ad3265a11127481035ecbc96e03c48a99c32b23453d0953100ebd0a657bd49" 
+                    width="100%" alt="avatar" style="border-radius: 50%;">
+                
+                </div>
+                <div class="puntaje" > <i class="fa-solid fa-star"></i>
+                    </div>
+            </div>
+                
+                <div class="descripcion">
+                    <h1>Un título</h1>
+                    <p>aqui podras ver la informacion</p>
+                </div>
+        </div>
+
+        <div class="container entradas">
+            <div class="img-news"></div>
+            <div class="usuarioContenedor">
+                <div class="usuario" >
+                    <img src="https://img.freepik.com/psd-gratis/ilustracion-3d-persona-gafas-sol-cabello-verde_23-2149436201.jpg?t=st=1725329625~exp=1725330225~hmac=c8ad3265a11127481035ecbc96e03c48a99c32b23453d0953100ebd0a657bd49" 
+                    width="100%" alt="avatar" style="border-radius: 50%;">
+                
+                </div>
+                <div class="puntaje" > <i class="fa-solid fa-star"></i>
+                    </div>
+            </div>
+                
+                <div class="descripcion">
+                    <h1>Un título</h1>
+                    <p>aqui podras ver la informacion</p>
+                </div>
+        </div>
+    
     
 </main>
 
