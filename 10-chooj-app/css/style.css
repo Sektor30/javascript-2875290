@@ -50,9 +50,10 @@ input[type=text]{
 .busqueda-dos{
     width: 40%;
     margin: auto;
-    visibility: hidden;
+     visibility: hidden; 
     margin-top:25px;
     display: flex;
+    border: 2px dashed purple;
 }
 
 .hamb{
