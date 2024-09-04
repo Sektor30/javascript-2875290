@@ -7,6 +7,7 @@
 body{
     background: gray;
     
+    
 }
 
 h1{
@@ -24,7 +25,7 @@ header{
 
 
 .logo{
-    
+    cursor: pointer;
     margin: 20px 20px ;
     padding: 30px 60px;
     background: rgb(240, 240, 240);
@@ -32,10 +33,30 @@ header{
 
 }
 
+.login>li{
+    cursor: pointer;
+    padding: 10px; 
+
+}
+
+
+.login>li:hover{
+    color: black;
+    background-color: #00e6e6;
+
+}
+
+
 /* informacion de estilos de main de curso */
 
 .busqueda{
     margin-top:25px;
+}
+
+.busqueda:hover{
+    margin-top:25px;
+    transform:scale(1.2);
+    transition: ease-in-out 0.10s;
 }
 
 input[type=text]{
@@ -83,9 +104,27 @@ input[type=text]{
 }
 
 .menu li{
-    
+    padding: 8px;
     align-items: center;
-    padding-top  : 10px;
+    font-size: 22px;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.menu>li>a{
+    text-decoration: none;
+    color: white;
+}
+.menu>li>a:hover{
+    
+    color: black;
+}
+
+.menu>li:hover{
+    background-color: #00e6e6; ;
+    color: black;
+    transform:scale(1.2);
+    transition: ease-in-out 0.10s;
 }
 
 .progress{
@@ -99,10 +138,13 @@ input[type=text]{
     .fa-bars{
     font-size: 0px; 
     visibility: collapse;
-    position: relative;
+     position: relative; 
     z-index: 1; 
+    
         
 }
+
+
 
 
 
@@ -135,13 +177,21 @@ li{
 }
 
 .list >li{
+    cursor: pointer;
     padding: 10px;
     width: 200px;
+    font-size: 20px;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
 }
 
-.container-uno{
+.list >li:hover{
+    background-color: #00e6e6; 
+    color: black;
+    transform:scale(1.1);
+    transition: ease-in 0.10s;
+}
 
-    
+.container-uno{   
     width: 80%;
     margin: auto;
     display: flex;
@@ -180,42 +230,69 @@ footer{
 .info{
     margin-top: 20px;
     height: 20px;
-    
     display: block;
     color: rgb(133, 133, 133);
     font-size: 28px;
     padding: 3px;
 }
 
+
+
 .nosotros{
     border: 2px solid gray;
     padding: 8px;
+    margin-bottom: 10px ;
+    cursor: pointer;
 }
 
 .nosotros-dos{
     border: 2px solid gray;
     padding: 8px;
+    margin-bottom: 10px ;
+    cursor: pointer;
 }
 
 .nosotros-tres{
     border: 2px solid gray;
     padding: 8px;
+    margin-bottom: 10px ;
+    cursor: pointer;
 }
 
-.nosotros{
-    margin-bottom: 10px ;
-    border: 2px solid ;
+.nosotros:hover{
+    color: black;
+    background-color: #00e6e6;
+    
 }
+
+.nosotros-dos:hover{
+    color: black;
+    background-color: #00e6e6;
+}
+
+.nosotros-tres:hover{
+    color: black;
+    background-color: #00e6e6;
+}
+
+
 
 .social{
     display: flex;
     color: white;
-    margin: 2px;
-   
+    margin: 2px;  
 }
 
 .redes{
     margin: 8px;
+    cursor: pointer;
+    
+}
+
+.fa-brands:hover{
+    color: #00e6e6;
+    transform:scale(1.8);
+    transition: ease-in 0.10s;
 }
 
 
@@ -241,6 +318,7 @@ footer{
         margin: auto;
         width: 80%;
         
+        
     }
     
     
@@ -249,16 +327,38 @@ footer{
         width: 100%;
     }
 
-    .fa-bars{
-    
-        font-size: 40px;
-        width: 100%;
+    .hamb{
+        position: absolute;
         
+        
+
+    }
+
+    .hamb>i{
+        width: 10%;
+        padding: 20px;
+        justify-content: center;
+        
+        margin: auto;
+        display: flex;
+    }
+
+    .fa-bars{
+        font-size: 40px;
         padding-top: 15px;
         margin: auto;
         text-align: center;
         justify-content: center;
         visibility: visible;
+        justify-content: center;
+        margin: auto;
+    }
+
+    
+
+    .fa-bars:hover{
+        color: #00e6e6;
+        
     }
 
     .menu{
@@ -272,15 +372,14 @@ footer{
     width: 0px;
 }
 
-
 .container-uno > img{
-    
-    
     width: 450px;
     height: 330px;
     margin: 20px auto;    
     
 }
+
+
 
 .list-dos{
     border: 2px solid rgb(48, 48, 48);
@@ -300,6 +399,12 @@ footer{
     
 }
 
+.list-dos>li:hover{
+    background-color: #00e6e6; 
+    color: black;  
+    
+}
+
 footer{
     display: flex;
    flex-flow: wrap ;
@@ -308,7 +413,6 @@ footer{
 }
 
 .info{
-    
     
     width: 100%;
     flex-flow: wrap;
@@ -350,6 +454,12 @@ footer{
 }
 
 @media screen and (max-width:500px){
+
+    body{
+        width: 480px;
+    }
+
+
 
     .container-uno {
         width: 100%;
