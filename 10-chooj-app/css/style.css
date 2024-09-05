@@ -6,6 +6,7 @@
 
 body{
     background: gray;
+    width: 100%;
     
     
 }
@@ -20,7 +21,8 @@ header{
     justify-content:space-between;
     width: 100%;
     flex-flow: wrap;
-    background: rgb(190, 255, 190);
+    background-color: #616161;
+    /* background: rgb(190, 255, 190); */
 }
 
 
@@ -31,6 +33,11 @@ header{
     background: rgb(240, 240, 240);
     border-radius: 10px;
 
+}
+
+header a{
+    width:20%;
+    padding-right: 30px;
 }
 
 .login>li{
@@ -50,13 +57,13 @@ header{
 /* informacion de estilos de main de curso */
 
 .busqueda{
-    margin-top:25px;
+    margin-top:50px;
     width: 40%;
-    padding-top: 60px;
-}
+
+    }
 
 .busqueda:hover{
-    margin-top:25px;
+    
     transform:scale(1.2);
     transition: ease-in-out 0.10s;
 }
@@ -77,7 +84,8 @@ input[type=text]{
     margin: auto;
     margin: -40px 0 0 0;
      visibility: hidden; 
-     background: rgb(190, 255, 190);
+    
+     /* background: rgb(190, 255, 190); */
     display: flex;
     
     
@@ -97,10 +105,8 @@ input[type=text]{
 
 .menu{
     
-    position: absolute;
-    width: 60%;
-    bottom: 20px;
-    left: 20%;
+    position: relative;
+    width: 70%;
     z-index: 2;
     margin: auto;
     display:flex; 
@@ -134,8 +140,8 @@ input[type=text]{
 
 .progress{
     margin-bottom: 50px;
-    height: 50px;
-    margin: 10px;
+    height: 0px;
+    margin: -28px;
     width: 100%;
     border: 2px solid rgb(139, 139, 139);
 }
@@ -304,7 +310,7 @@ footer{
 @media screen and (max-width:780px) {
 
     body{
-        width: 100%;
+        width: 780px;
     }
 
     .busqueda{
@@ -318,7 +324,8 @@ footer{
         justify-content: center;
         padding: 40px 0px;
         margin: -5px 0 0 0;
-        background: rgb(190, 255, 190);
+        background-color: #616161;
+        /* background: rgb(190, 255, 190); */
     }
 
     input[type=text]{
@@ -331,10 +338,15 @@ footer{
         
     }
         
-    
+    header a{
+    width:100%;
+    padding-right: 0px;
+    }
+
     .logo{
-        margin: auto;
-        width: 80%;
+        
+        margin:20px ;
+        width: 90%;
         
         
     }
@@ -391,8 +403,8 @@ footer{
 }
 
 .container-uno > img{
-    width: 450px;
-    height: 330px;
+    width: 630px;
+    height: 380px;
     margin: 20px auto;    
     
 }
@@ -471,14 +483,11 @@ footer{
 
 }
 
+
+
 @media screen and (max-width:500px){
 
-    body{
-        width: 480px;
-    }
-
-
-
+    
     .container-uno {
         width: 100%;
     }
@@ -487,10 +496,10 @@ footer{
     .container-uno > img{
        
         width: 100%;
-        height: 360px;
-        margin: auto;    
+        height: 600px;
+        margin: 30px auto;    
         
     }
 
-
 }
+
