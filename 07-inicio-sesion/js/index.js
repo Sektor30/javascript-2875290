@@ -47,7 +47,7 @@ function validarUsuario (e){
 
     if(username.value === currentUser.userName && password.value === currentUser.userPass){
         console.log('Felicidades puedes entrar 🔥')
-        window.location = "./vistas/userpages.html"
+        window.location = " ../vistas/userpages.html"
     }else{
         console.log('Sigue intentando')
     }
