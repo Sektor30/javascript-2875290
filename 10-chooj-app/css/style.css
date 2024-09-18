@@ -21,11 +21,7 @@ header{
     justify-content:space-between;
     width: 100%;
     flex-flow: wrap;
-<<<<<<< HEAD
     background-color: #b1e8ef;
-=======
-    background-color: #616161;
->>>>>>> 47bc4761ef600a88df880072e4fdda9342e9eebb
     /* background: rgb(190, 255, 190); */
 }
 
