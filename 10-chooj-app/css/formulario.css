@@ -59,9 +59,13 @@ font-weight: 400;
 #contact h4 {
 margin:5px 0 15px;
 display:block;
+<<<<<<< HEAD
 color: rgba(0, 0, 0, 0.486);
 font-family: sans-serif,Arial, Helvetica, sans-serif;
 font-size:23px;
+=======
+font-size:13px;
+>>>>>>> 47bc4761ef600a88df880072e4fdda9342e9eebb
 }
 
 fieldset {
@@ -74,11 +78,18 @@ width: 100%;
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
 width:100%;
+<<<<<<< HEAD
 font-size: 24px;
 border:1px solid #CCC;
 background:#FFF;
 margin:0 0 5px;
 padding:16px;
+=======
+border:1px solid #CCC;
+background:#FFF;
+margin:0 0 5px;
+padding:25px;
+>>>>>>> 47bc4761ef600a88df880072e4fdda9342e9eebb
 }
 
 #contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
@@ -89,10 +100,16 @@ border:1px solid #AAA;
 }
 
 #contact textarea {
+<<<<<<< HEAD
 height:200px;
 max-width:100%;
 resize:none;
 overflow: scroll;
+=======
+height:100px;
+max-width:100%;
+resize:none;
+>>>>>>> 47bc4761ef600a88df880072e4fdda9342e9eebb
 }
 
 #contact button[type="submit"] {
